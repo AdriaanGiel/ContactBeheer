@@ -1,0 +1,29 @@
+{
+  "name": "laravel",
+  "description": "Contacten Beheer",
+  "main": "",
+  "authors": [
+    "Adriaan Giel <a3aan_G@live.nl>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/assets/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "jquery-ui": "*",
+    "bootstrap-sass": "*",
+    "admin-lte":"*",
+    "bootstrap-switch":"~3.3.2",
+    "DataTables":"*",
+    "bootswatch-dist": "slate",
+    "jquery.jscrollpane": "*",
+    "jquery-mousewheel": "*"
+  }
+}

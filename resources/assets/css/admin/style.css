@@ -1,0 +1,7 @@
+div.inline-div * {
+    display: inline-block !important;
+}
+
+div.title-name{
+    width: 150px;
+}

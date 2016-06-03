@@ -1,0 +1,230 @@
+.top-head{
+    margin-top: 25px;
+    margin-bottom: 0 !important;
+    padding: 2% !important;
+}
+
+.front-sidebar{
+    height: 80% !important;
+}
+
+.contact-panel-div{
+    padding-left: 0 !important;
+    height: 80% !important;
+}
+
+.contact-panel-div-create{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.contact-panel-body{
+    max-height: 480px !important;
+    min-height: 452px !important;
+    overflow: hidden;
+    padding: 0 !important;
+
+}
+
+.contact-panel{
+    margin-bottom: 0 !important;
+    height: 510px;
+    overflow: hidden;
+    border-radius: 0 !important;
+}
+
+.contact-image-div{
+    height: 100% !important;
+    width: 10% !important;
+}
+
+.small_image{
+    border-radius: 100%;
+    height: 10% !important;
+    width: 10% !important;
+}
+
+.cover-container{
+    width: 500px !important;
+}
+
+.stay{
+    color: lightslategray;
+}
+
+.add-button{
+    padding: 0 !important;
+    border: none !important;
+}
+
+.create-panel-body{
+    height:100% !important;
+    /*height: 800px !important;*/
+}
+
+.transfer-name{
+    font-weight: bold;
+}
+
+.modal-form{
+    margin-bottom: 2px !important;
+}
+
+.contact-prop{
+    height: 100% !important;
+}
+
+.contact-well{
+    margin-bottom: 0 !important;
+}
+
+.upload-well{
+    padding: 5px !important;
+    display: none;
+}
+
+.add-upload{
+    padding: 0 !important;
+    background: none !important;
+}
+
+.main-upload{
+    margin-bottom: 10px !important;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.crumbs-buttons{
+    display: inline-block !important;
+}
+
+@media screen and (min-width: 992px){
+    .crumbs-buttons{
+        width: 85% !important;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .crumbs-buttons{
+        width: 84% !important;
+    }
+}
+
+
+.crumbs{
+    margin-bottom: 0 !important;
+}
+
+.add-buttons{
+    display: inline-block;
+    width: 14%;
+}
+
+.cross:hover{
+    color: #9f191f;
+}
+
+.pencil:hover{
+    color: #00a7d0;
+}
+.scroll-pane
+{
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+}
+
+.kalender-top{
+    position: relative;
+    width: 100%;
+    padding: 0 !important;
+}
+
+.kalender{
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+    transform: scale(0.75);
+}
+
+.kalender:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+    /*margin: 0 10px;*/
+}
+
+.kalender-active{
+     transform: scale(1.1);
+ }
+
+
+.kalender-body{
+    padding: 0 !important;
+    height: 60px;
+}
+
+.kalender-holder{
+    padding: 0 !important;
+    margin: auto !important;
+    display:inline-block;
+    /*overflow: hidden;*/
+    width: 100%;
+
+}
+
+.months-panel{
+    padding: 5px !important;
+}
+
+.pop-up{
+    transform: scale(0);
+    background-color: #32383e;
+    min-height: 300px;
+    min-width: 400px;
+    border-radius:  20px;
+    border: solid 4px #62c462;
+    z-index: 100;
+    position: absolute;
+    left: 325px;
+    top: 125px;
+    transition: all 0.3s ease-out;
+
+}
+
+.pop-up-active{
+    transform: scale(1);
+    transition: all 1s ease-in-out;
+
+}
+
+.pop-up-close-body{
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-right: 25px;
+}
+
+.birth{
+    background-color: #1c1e22;
+
+}
+
+.fftest{
+    margin-top: 20%;
+}
